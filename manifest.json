@@ -3,6 +3,10 @@
     "name": "BSLA chrome extension",
     "version": "0.0.1",
     "description": "Initial version of the BSLA chrome extension",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
     "action": {
         "default_popup": "src/popup/popup.html",
         "default_icon": {
@@ -11,5 +15,8 @@
             "128": "src/images/bsla128x128.png"
         },
         "default_title": "BSLA chrome extension"
+    },
+    "background": {
+        "service_worker": "src/background/background.js"
     }
 }
