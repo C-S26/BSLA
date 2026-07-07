@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         target: { tabId: tab.id },
         func: () => {
           // This function runs in the WEB PAGE context, so it can access `document`
-          return document.title; // Return the page title
+          return document.URL; // Return the page weblink
         },
       });
 
