@@ -15,8 +15,5 @@
             "128": "src/images/bsla128x128.png"
         },
         "default_title": "BSLA chrome extension"
-    },
-    "background": {
-        "service_worker": "src/background/background.js"
     }
 }
