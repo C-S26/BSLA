@@ -1,7 +1,7 @@
 // Wait for the popup DOM to load before adding event listeners
 document.addEventListener("DOMContentLoaded", () => {
-  const fetchButton = document.getElementById("titleResult");
-  const resultDiv = document.getElementById("titleResult");
+  const fetchButton = document.getElementById("click");
+  const resultDiv = document.getElementById("result");
 
   fetchButton.addEventListener("click", async () => {
     try {
